@@ -2,141 +2,178 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ArenaX University Badminton Performance Challenge</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+<title>ArenaX Badminton Performance Certificate</title>
 
 <style>
-body{
-  margin:0;
-  font-family:Poppins,sans-serif;
-  background:#0b0f1a;
-  color:#f5f5f5;
+@page {
+  size: A4 landscape;
+  margin: 25mm;
 }
-section{padding:60px 20px; max-width:1100px; margin:auto;}
-.hero{
-  text-align:center;
-  background:linear-gradient(180deg,#0b0f1a,#11162a);
+
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  color: #111;
 }
-.hero h1{
-  font-family:'Playfair Display',serif;
-  font-size:42px;
-  color:#f2c94c;
+
+.container {
+  border: 2px solid #000;
+  padding: 30px 40px;
+  height: 100%;
+  box-sizing: border-box;
 }
-.hero p{font-size:18px; opacity:0.95;}
-.btn{
-  display:inline-block;
-  margin-top:25px;
-  padding:14px 30px;
-  background:#f2c94c;
-  color:#000;
-  text-decoration:none;
-  font-weight:600;
-  border-radius:6px;
+
+/* HEADER */
+.header {
+  text-align: center;
 }
-.card{
-  background:#151a33;
-  padding:25px;
-  border-radius:10px;
+
+.header img {
+  width: 120px;
 }
-.cards{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-  gap:20px;
+
+.header h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 34px;
+  margin: 18px 0 6px;
 }
-.price{font-size:28px; color:#f2c94c;}
-footer{text-align:center; padding:35px 20px; font-size:14px; opacity:0.85;}
-img{max-width:100%; border-radius:10px;}
-.small-note{opacity:0.75; font-size:14px;}
+
+.subline {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+/* PARTICIPANT */
+.participant {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.participant .label {
+  font-size: 16px;
+}
+
+.participant .name {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 12px 0;
+}
+
+/* DESCRIPTION */
+.description {
+  text-align: center;
+  font-size: 15px;
+  margin: 20px 40px;
+  line-height: 1.6;
+}
+
+/* PERFORMANCE BOX */
+.performance-box {
+  border: 1.5px solid #000;
+  padding: 18px 25px;
+  width: 60%;
+  margin: 30px auto;
+}
+
+.performance-box h3 {
+  text-align: center;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+.performance-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin: 6px 0;
+}
+
+/* CONTINUITY */
+.continuity {
+  font-size: 14px;
+  text-align: center;
+  margin: 25px 60px;
+  line-height: 1.6;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  font-size: 14px;
+}
+
+.signature {
+  border-top: 1px solid #000;
+  width: 220px;
+  padding-top: 6px;
+}
+
 </style>
 </head>
 
 <body>
+<div class="container">
 
-<!-- HERO -->
-<section class="hero">
-  <h1>ArenaX University Badminton Performance Challenge</h1>
-  <p>Skill Assessment • Ranking • Recognition</p>
-  <p><em>Prove your skill. Get ranked. Get recognized.</em></p>
-  <p class="small-note">Limited slots · University players only</p>
-  <a class="btn" href="YOUR_GOOGLE_FORM_LINK">Register Now</a>
-</section>
+  <!-- HEADER -->
+  <div class="header">
+    <img src="arenax-logo.png" alt="ArenaX Logo">
+    <div class="subline">ArenaX Sports Events</div>
+    <div class="subline">Skill Assessment • Ranking • Recognition</div>
 
-<!-- ABOUT -->
-<section>
-  <h2>About the Event</h2>
-  <p>
-    ArenaX presents a structured badminton performance assessment program for university students.
-    Players are evaluated on skill execution, movement, and match intelligence — not just win/loss.
-  </p>
-  <p class="small-note">
-    Organized by <strong>ArenaX Sports Events</strong> — badminton development & performance programs.
-  </p>
-</section>
-
-<!-- WHAT YOU GET -->
-<section>
-  <h2>What Participants Get</h2>
-  <div class="cards">
-    <div class="card">✔ Official Ranked Performance Certificate</div>
-    <div class="card">✔ Individual Skill-Based Ranking</div>
-    <div class="card">✔ Skill Category (Beginner / Intermediate / Advanced)</div>
-    <div class="card">✔ Eligibility for Advanced ArenaX Programs</div>
+    <h1>ArenaX Badminton Performance Certificate</h1>
   </div>
-</section>
 
-<!-- CERTIFICATE (MOVED UP FOR PSYCHOLOGY) -->
-<section>
-  <h2>Certificate Preview</h2>
-  <p>
-    Every participant receives an official performance-ranked certificate based on on-court evaluation —
-    <strong>not participation</strong>.
-  </p>
-  <img src="certificate-preview.jpg" alt="ArenaX Certificate Preview">
-</section>
-
-<!-- REWARDS -->
-<section>
-  <h2>Rewards & Recognition</h2>
-  <div class="cards">
-    <div class="card">🥇 Winner – ₹500 Cash</div>
-    <div class="card">🥈 Runner-up – ₹300 Cash</div>
-    <div class="card">🎁 Sports Kits / Shuttles for Top Performers</div>
+  <!-- PARTICIPANT -->
+  <div class="participant">
+    <div class="label">This is to certify that</div>
+    <div class="name">[ PARTICIPANT NAME ]</div>
   </div>
-</section>
 
-<!-- PRICING -->
-<section>
-  <h2>Registration Options</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>Basic Participation</h3>
-      <p class="price">₹100</p>
-      <p>Skill assessment, ranking & digital performance certificate.</p>
+  <!-- DESCRIPTION -->
+  <div class="description">
+    has participated in the <strong>ArenaX Badminton Skill Challenge</strong>,<br>
+    a structured skill assessment and ranking program conducted for university students,<br>
+    evaluated on technical skill, movement, and match performance.
+  </div>
+
+  <!-- PERFORMANCE SUMMARY -->
+  <div class="performance-box">
+    <h3>PERFORMANCE SUMMARY</h3>
+    <div class="performance-row">
+      <span>Overall Rank</span><span>12 / 50</span>
     </div>
-    <div class="card">
-      <h3>Performance+ ⭐</h3>
-      <p class="price">₹250</p>
-      <p>
-        All Basic benefits + ArenaX T-shirt / sponsor merchandise,
-        on-ground energy drink, priority slot & Instagram highlight.
-      </p>
+    <div class="performance-row">
+      <span>Skill Category</span><span>Intermediate</span>
+    </div>
+    <div class="performance-row">
+      <span>Performance Band</span><span>Top 25%</span>
     </div>
   </div>
-</section>
 
-<!-- CTA -->
-<section style="text-align:center">
-  <h2>Ready to Play?</h2>
-  <a class="btn" href="YOUR_GOOGLE_FORM_LINK">Register Now</a>
-</section>
+  <!-- CONTINUITY -->
+  <div class="continuity">
+    This certificate qualifies the holder for:<br>
+    • Priority entry in advanced ArenaX development programs<br>
+    • Discounted registration in next-level ArenaX events<br>
+    • Eligibility for ArenaX inter-university leagues and showcases
+  </div>
 
-<!-- FOOTER -->
-<footer>
-  Instagram: <strong>@ArenaXSports</strong> | WhatsApp: XXXXXXXX<br>
-  Limited slots available · Rankings based on structured evaluation
-</footer>
+  <!-- FOOTER -->
+  <div class="footer">
+    <div>
+      <div class="signature"></div>
+      Program Coordinator<br>
+      ArenaX Sports Events
+    </div>
 
+    <div>
+      Certificate ID: AX-BS-2025-017<br>
+      Date: DD / MM / YYYY
+    </div>
+  </div>
+
+</div>
 </body>
 </html>
