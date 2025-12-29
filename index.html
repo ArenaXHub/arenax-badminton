@@ -24,7 +24,7 @@ section{padding:60px 20px; max-width:1100px; margin:auto;}
   font-size:42px;
   color:#f2c94c;
 }
-.hero p{font-size:18px; opacity:0.9;}
+.hero p{font-size:18px; opacity:0.95;}
 .btn{
   display:inline-block;
   margin-top:25px;
@@ -39,81 +39,103 @@ section{padding:60px 20px; max-width:1100px; margin:auto;}
   background:#151a33;
   padding:25px;
   border-radius:10px;
-  margin:15px 0;
 }
-.cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px;}
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
 .price{font-size:28px; color:#f2c94c;}
-footer{text-align:center; padding:30px; font-size:14px; opacity:0.8;}
+footer{text-align:center; padding:35px 20px; font-size:14px; opacity:0.85;}
 img{max-width:100%; border-radius:10px;}
+.small-note{opacity:0.75; font-size:14px;}
 </style>
 </head>
 
 <body>
 
+<!-- HERO -->
 <section class="hero">
   <h1>ArenaX University Badminton Performance Challenge</h1>
   <p>Skill Assessment • Ranking • Recognition</p>
-  <p><em>Not just a tournament. A performance-based ranking experience.</em></p>
+  <p><em>Prove your skill. Get ranked. Get recognized.</em></p>
+  <p class="small-note">Limited slots · University players only</p>
   <a class="btn" href="YOUR_GOOGLE_FORM_LINK">Register Now</a>
 </section>
 
+<!-- ABOUT -->
 <section>
   <h2>About the Event</h2>
   <p>
     ArenaX presents a structured badminton performance assessment program for university students.
     Players are evaluated on skill execution, movement, and match intelligence — not just win/loss.
   </p>
+  <p class="small-note">
+    Organized by <strong>ArenaX Sports Events</strong> — badminton development & performance programs.
+  </p>
 </section>
 
+<!-- WHAT YOU GET -->
 <section>
   <h2>What Participants Get</h2>
   <div class="cards">
-    <div class="card">✔ Ranked Performance Certificate</div>
-    <div class="card">✔ Individual Skill Ranking</div>
-    <div class="card">✔ Skill Category Classification</div>
-    <div class="card">✔ Eligibility for Advanced ArenaX Events</div>
+    <div class="card">✔ Official Ranked Performance Certificate</div>
+    <div class="card">✔ Individual Skill-Based Ranking</div>
+    <div class="card">✔ Skill Category (Beginner / Intermediate / Advanced)</div>
+    <div class="card">✔ Eligibility for Advanced ArenaX Programs</div>
   </div>
 </section>
 
+<!-- CERTIFICATE (MOVED UP FOR PSYCHOLOGY) -->
 <section>
   <h2>Certificate Preview</h2>
-  <p>Every participant receives an official ranked performance certificate.</p>
+  <p>
+    Every participant receives an official performance-ranked certificate based on on-court evaluation —
+    <strong>not participation</strong>.
+  </p>
   <img src="certificate-preview.jpg" alt="ArenaX Certificate Preview">
 </section>
 
+<!-- REWARDS -->
 <section>
   <h2>Rewards & Recognition</h2>
   <div class="cards">
     <div class="card">🥇 Winner – ₹500 Cash</div>
     <div class="card">🥈 Runner-up – ₹300 Cash</div>
-    <div class="card">🎁 Sports Kits / Shuttles</div>
+    <div class="card">🎁 Sports Kits / Shuttles for Top Performers</div>
   </div>
 </section>
 
+<!-- PRICING -->
 <section>
   <h2>Registration Options</h2>
   <div class="cards">
     <div class="card">
-      <h3>Basic</h3>
+      <h3>Basic Participation</h3>
       <p class="price">₹100</p>
-      <p>Assessment + Ranking + Digital Certificate</p>
+      <p>Skill assessment, ranking & digital performance certificate.</p>
     </div>
     <div class="card">
-      <h3>Premium ⭐</h3>
+      <h3>Performance+ ⭐</h3>
       <p class="price">₹250</p>
-      <p>All Basic benefits + T-shirt + Energy Drink + Instagram Highlight</p>
+      <p>
+        All Basic benefits + ArenaX T-shirt / sponsor merchandise,
+        on-ground energy drink, priority slot & Instagram highlight.
+      </p>
     </div>
   </div>
 </section>
 
+<!-- CTA -->
 <section style="text-align:center">
   <h2>Ready to Play?</h2>
   <a class="btn" href="YOUR_GOOGLE_FORM_LINK">Register Now</a>
 </section>
 
+<!-- FOOTER -->
 <footer>
-  Instagram: @ArenaXSports | WhatsApp: XXXXXXXX<br>
-  Limited slots available. University students only.
+  Instagram: <strong>@ArenaXSports</strong> | WhatsApp: XXXXXXXX<br>
+  Limited slots available · Rankings based on structured evaluation
 </footer>
 
 </body>
